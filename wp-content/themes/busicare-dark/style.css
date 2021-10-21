@@ -1,0 +1,122 @@
+/*
+Theme Name: BusiCare Dark
+Theme URI: https://spicethemes.com/busicare-dark-wordpress-theme/
+Author: spicethemes
+Author URI: https://spicethemes.com
+Description: BusiCare Dark WordPress Theme is a lightweight, elegant, fully responsive, and translation-ready theme. It allows you to create stunning blogs and websites. The theme is well suited for companies, law firms, e-commerce, finance, agency, travel, photography, recipes, design, arts, personal, and other creative websites and blogs. The theme is developed using the Bootstrap 4 framework. It comes with a predesigned home page, good-looking header designs, and several content sections that you can easily customize. It also has many customization options (banner, services, testimonial, etc) that will help you create a beautiful, unique website in no time. BusiCare Dark is compatible with popular plugins like Polylang, WooCommerce and Contact Form 7. BusiCare Dark theme is available in several locales. (DEMO: https://busicare-dark.spicethemes.com/)
+Template: busicare
+Tags: one-column, two-columns, right-sidebar, custom-colors, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog, e-commerce
+Version: 0.9
+Requires at least: 4.5
+Tested up to: 5.8
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: busicare-dark
+*/
+.dark #wrapper{background-color: #000;}
+.dark .index5.header-logo {background-color: #181a1f;}
+.dark a {color: #ffffff;}
+.dark .business h3 a {color: #ffffff;}
+.dark a.btn-small.btn-light:hover {color: #ffffff;}
+.dark .scroll-up a:hover {color: #ffffff;}
+.dark .site-footer p {color: #ffffff;}
+.dark p {color: #999999;}
+@media (min-width: 992px){.dark .navbar5 .navbar-nav > .active > a:after {color: #000;top: -15px;}}
+.dark .services2 h2{color: #ffffff;}
+.dark .services2 h5{color: #999999;}
+.dark .services2 .post {background-color: #181a1f;}
+.dark .team-group{background-color: #181a1f;}
+.dark .team-group h2{color: #ffffff;}
+.dark .team-group h4{color: #ffffff;}
+.dark .team-group h5{color: #999999;}
+.dark .home-blog{background-color: #000000;}
+.dark .home-blog h2{color: #ffffff;}
+.dark .home-blog h5{color: #999999;}
+.dark .home-blog article{background-color: #181a1f;box-shadow: 0px 0px 1px 1px #181a1f;}
+.dark .section-space-page.blog .standard-view article{background-color: #181a1f;box-shadow: 0px 0px 1px 1px #181a1f;}
+.dark .sidebar.s-l-space aside{background-color: #191a1f;box-shadow: 0px 0px 1px 1px #323232;}
+.dark .business .entry-meta a {color: #999999;}
+.dark .blog .post .entry-content a.more-link {color: #ffffff;}
+.dark .dropdown-menu {background-color: #181a1f;color: #ffffff;}
+.dark .blog.business .post:hover {box-shadow: unset;}
+
+.dark .blog .post {background-color: #181a1f;box-shadow: 0px 0px 1px 1px #181a1f;}
+.dark .blog-author {background-color: #181A1F;border: 1px solid #323232;}
+.dark .comment-section {background-color: #181A1F;}
+.dark input[type="text"], .dark input[type="email"], .dark input[type="url"], .dark input[type="password"], .dark input[type="search"], .dark input[type="number"], .dark input[type="tel"], .dark input[type="range"], .dark input[type="date"], .dark input[type="month"], .dark input[type="week"], .dark input[type="time"], .dark input[type="datetime"], .dark input[type="datetime-local"], .dark input[type="color"], .dark textarea {
+    color: #ffffff;
+    background: #181a1f;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #323232;
+}
+.dark .home-blog h3 a {color: #FFFFFF;}
+body.dark .blog-author h5, body.dark .comment-detail h5{color: #FFFFFF;}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {color: #ffffff;}
+.dark .navbar .search-box-outer .dropdown-menu {background-color: #181a1f !important;}
+.dark .cart-header {border-left: unset;}
+.blog.business .post .entry-date a { position: unset; margin: 0.313rem 0 1rem 0;}
+@media (min-width: 992px){
+.dark .navbar5 .navbar-nav > .dropdown.active > a:after {
+    color: #000;left: unset;
+}}
+.dark label {color: #ffffff;}
+.dark .woocommerce ul.products li.product, .dark .woocommerce-page ul.products li.product {background-color: #181a1f;}
+.dark .woocommerce div.product p.price, .dark .woocommerce div.product span.price, .dark .woocommerce .posted_in a, .dark .woocommerce-product-rating a, .dark .woocommerce .tagged_as a, .dark .woocommerce div.product form.cart .variations td.label label, .dark .woocommerce #reviews #comments ol.commentlist li .meta strong, .dark .woocommerce table.shop_table th, .dark .woocommerce-cart table.cart td a, .dark .owl-item .item .cart .add_to_cart_button, .dark .woocommerce ul.cart_list li a, .dark .woocommerce ul.product_list_widget li a, .dark .woocommerce-error, .woocommerce-info, .dark .woocommerce-message {
+    color: #fff;
+}
+.dark .product-price .woocommerce-Price-amount {color: #999999;}
+.dark .woocommerce div.product p.price, .dark .woocommerce div.product span.price, .dark .woocommerce .posted_in a, .dark .woocommerce-product-rating a, .dark .woocommerce .tagged_as a, .dark .woocommerce div.product form.cart .variations td.label label, .dark .woocommerce #reviews #comments ol.commentlist li .meta strong, .dark .woocommerce table.shop_table th, .dark .woocommerce-cart table.cart td a, .dark .owl-item .item .cart .add_to_cart_button, .dark .woocommerce ul.cart_list li a, .dark .woocommerce-error, .dark .woocommerce-info, .dark .woocommerce-message {
+    color: #ffffff;
+}
+.dark .team-grid {box-shadow: 0px 0px 1px 1px #323232;}
+.dark .blog .post:hover {box-shadow: unset;}
+.dark .team-grid:hover {
+    box-shadow: unset;
+}
+body.dark input[type="text"], body.dark input[type="email"], body.dark input[type="url"], body.dark input[type="password"], body.dark input[type="search"], body.dark input[type="number"], body.dark input[type="tel"], body.dark input[type="range"], body.dark input[type="date"], body.dark input[type="month"], body.dark input[type="week"], body.dark input[type="time"], body.dark input[type="datetime"], body.dark input[type="datetime-local"], body.dark input[type="color"], body.dark textarea {
+    color: #ffffff;
+    background: #181a1f;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #323232;
+}
+body.dark input.search-field::placeholder{color:#fff;}
+body.dark .navbar5 .search-box-outer a.search-icon{
+    color: #fff !important;
+    background-color: transparent;
+}
+.services2 .post-thumbnail img {
+    width: 3rem;
+    height: 3rem;
+}
+body.dark .navbar.navbar5 .nav .dropdown-menu .bg-light{background-color: transparent !important;}
+.dark .sticky .entry-meta {color: #d0caca;}
+.dark .sticky .entry-meta a{color: #d0caca;}
+.dark p.alert-warning {color: #000000;}
+.dark .page-numbers.dots{color: #fff;}
+.section-space-page.page article form a {
+    text-decoration: none !important;
+}
+.dark a.page-numbers:hover {color: #ffffff;}
+
+ .navbar5.navbar .header-module {
+    padding-top: 12px;
+     padding-left: 12px;
+}
+.dark .dropdown-menu .dropdown-item {background:transparent; }
+.dark input[type="button"]:focus,.dark input:focus,.dark  input[type="submit"]:focus ,textarea:focus{
+    outline: 5px auto -webkit-focus-ring-color !important;
+}
+.dark .widget .wp-block-search .wp-block-search__button:hover {
+    background-color: #000;
+}
+.dark .blog .post .entry-content a:hover{
+    color: #ffffff;
+}
+.dark .navbar.navbar5 {z-index: 2;}
+.dark a.cart-icon:hover {color: #82b440;}
+.dark .blog .post .entry-content a.more-link.btn-ex-small.btn-border {color: #000000;}
+.cart-collaterals a.woocommerce-LoopProduct-link.woocommerce-loop-product__link{text-decoration: none !important;}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{text-decoration: none !important;}
+.dark blockquote, .dark blockquote p{background:#101010;}
+.dark .testimonial blockquote, .dark .testimonial blockquote p{background: transparent;}
